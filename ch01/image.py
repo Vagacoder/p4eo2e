@@ -9,6 +9,7 @@ pencil = cv2.divide(grey_img, blur_g_img, scale=255)
 
 # cv2.imwrite('bday_g.jpg', grey_img)
 # cv2.imwrite('bday_r.jpg', rev_grey_img)
+# cv2.imwrite('penci01.jpg', pencil)
 
 cv2.imshow("pencil", pencil)
 cv2.imshow("blurred_grey_image", blur_g_img)
