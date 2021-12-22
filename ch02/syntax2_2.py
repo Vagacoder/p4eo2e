@@ -10,6 +10,8 @@ print('distance:', distance)
 # round()
 price = 1.83
 rate = 0.55
+print('tax is', price * rate)
+
 tax = round(price * rate, 2)
 print('tax is', tax)
 
@@ -25,4 +27,3 @@ print('best price is', best)
 # max()
 worst = max(price1, price2, price3, price4, price5)
 print('worst price is', worst)
-
